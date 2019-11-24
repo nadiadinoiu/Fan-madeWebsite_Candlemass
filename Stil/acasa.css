@@ -1,0 +1,51 @@
+ article {
+     padding: 3%;
+}
+ .text {
+     width: 75%;
+     height: 100%;
+     float: left;
+}
+ aside {
+     width: 25%;
+     height: 100%;
+     float: right;
+}
+ table {
+     margin-top: 20%;
+     border: 2px solid black;
+     width: 95%;
+     height: auto;
+     border-collapse:collapse;
+     empty-cells:show;
+}
+ th,td {
+     border:1px solid black;
+     padding:5px;
+     font-size: 1vw;
+}
+ td:empty {
+     padding:20px;
+}
+thead, tfoot {
+    background-color: #DAA520;
+}
+ tbody {
+     background-color: #d9d9d9;
+}
+ img {
+     width: 95%;
+     height: 90%;
+     margin-top: 10%;
+}
+footer
+{
+    position: absolute;
+}
+@media (max-width: 600px)
+{
+    .text
+    {
+      width:98%;
+    }
+}

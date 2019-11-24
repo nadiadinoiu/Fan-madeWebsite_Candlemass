@@ -1,0 +1,30 @@
+.stanga
+{
+    position:relative;
+    float: left;
+    width: 48%; 
+    padding: 1%;
+}
+
+.dreapta
+{
+    position: relative;
+    float: right;
+    width: 48%;
+    padding: 1%;
+}
+footer
+{
+    position: absolute;
+}
+@media (max-width:600px)
+{
+    h3
+    {
+        font-size: 6vw;
+    }
+    p
+    {
+     font-size:5.2vw;
+    }
+}

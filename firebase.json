@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "candlemass-tw",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

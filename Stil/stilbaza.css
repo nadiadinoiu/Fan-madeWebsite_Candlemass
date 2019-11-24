@@ -1,0 +1,204 @@
+ footer {
+     width:100%;
+     position: relative;
+     background-color:lightblue;
+     bottom: -40px;
+     text-align: center;
+     height: auto;
+     vertical-align: middle;
+     line-height: 35px;
+     margin-top: 5%;
+}
+.mid{
+   display: block;
+    margin: auto;
+    width:40%;
+}
+ h3, h4 {
+     margin-left: 8%;
+     font-size: 3vw;
+}
+ p {
+     text-indent: 7%;
+     text-align: justify;
+     font-size: 1.6vw;
+     padding: 1%;
+}
+ h1 {
+     text-align:center;
+     font-weight: bold;
+     font-size: 4vw;
+     font-family: Courier New;
+}
+ h2 {
+     text-align:center;
+     font-size: 2vw;
+     text-decoration: underline;
+     font-style: italic;
+     margin-top: -3.5%;
+     margin-left: 20%;
+}
+ .banner {
+     background-image:url("../resurse/imagini/banner.png");
+     background-repeat: no-repeat;
+     height: 50%;
+     width: 85%;
+     margin-top: 5px;
+     margin-left: 12%;
+     background-size:cover;
+     background-position:center;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url("../resurse/imagini/back.gif");
+    background-repeat:initial;
+    background-size: 100% 100%;
+    background-position:center;
+}
+.content {
+    background-image: linear-gradient(to right, #100e19, #a1a8e2);
+    width: 85%;
+    margin-left: 12%;
+    margin-top: 10px;
+    position: absolute;
+    overflow: visible;
+}
+ nav {
+     float: left;
+     position: fixed;
+     width: 12%;
+     height: 50%;
+     top: 50%;
+     z-index: 1;
+     padding: 0;
+}
+ .nav2 {
+     position: relative;
+     display: inline-block;
+     width: 12%;
+     height: 30%;
+     top: 1%;
+}
+ .buton {
+     background-color: #1B263B;
+     width:90%;
+     height:10%;
+     display: block;
+     margin-top:5%;
+     border-radius: 50px;
+     text-align:center;
+     font-size: 1vw;
+     color: white;
+     transition: all 500ms ease-in;
+     border: 3px solid pink;
+     text-decoration: none;
+     opacity: 0.3;
+}
+ .buton:hover {
+     width: 120%;
+     height: 18%;
+     font-size: 40%;
+     font-size: 2.2vw;
+     background-color: #778DA9;
+     border-radius: 50px;
+     color: white;
+     opacity: 0.85;
+}
+ a {
+     text-decoration: none;
+}
+ #derulant:hover {
+     height: 8%;
+}
+ .dropdown {
+     width: 70%;
+     display:none;
+}
+ #derulant:hover .dropdown {
+    display: inline-block;
+}
+ @media (max-width: 992px) {
+     .banner {
+         height: 25%;
+    }
+     p, td, th {
+         font-size: 2vw;
+    }
+     .buton {
+         width: 90%;
+         font-size: 1.7vw;
+    }
+     .buton:hover {
+         font-size: 3.3vw;
+    }
+     #derulant:hover {
+         height: 12%;
+    }
+}
+ @media (max-width: 600px) {
+     p {
+         font-size: 3vw;
+    }
+     td,th {
+         font-size: 2vw;
+    }
+     .buton {
+         display: inline;
+         font-size: 6vw;
+    }
+     body {
+         font-size:3vw;
+    }
+     .nav2 {
+         display: none;
+    }
+     .banner {
+         margin-left: 2%;
+         width:96%;
+         height: 15%;
+    }
+     .content {
+         margin-left: 2%;
+         width: 96%;
+         position:absolute;
+         top:23%;
+    }
+     nav {
+         width: 90%;
+         height: 10%;
+         margin-left: 10%;
+         float: none;
+         position:relative;
+         top: 1%;
+    }
+     .buton:hover {
+         font-size: 6vw;
+    }
+     aside img {
+         display: none;
+    }
+     h1{
+         font-size: 6vw;
+    }
+     h2 {
+         font-size: 4vw;
+    }
+     aside {
+         display:none;
+    }
+     .text {
+         width: 98%;
+    }
+     #derulant:hover .dropdown {
+        display:block;
+    }
+}
+ 
+
+.special
+{
+    width:95%;  
+    margin-left: 2.5%;
+}
